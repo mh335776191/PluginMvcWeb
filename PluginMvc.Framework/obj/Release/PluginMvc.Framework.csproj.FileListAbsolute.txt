@@ -1,0 +1,4 @@
+E:\研究\插件化\PluginMvcWeb\PluginMvc.Framework\bin\Release\PluginMvc.Framework.dll
+E:\研究\插件化\PluginMvcWeb\PluginMvc.Framework\bin\Release\PluginMvc.Framework.pdb
+E:\研究\插件化\PluginMvcWeb\PluginMvc.Framework\obj\Release\PluginMvc.Framework.dll
+E:\研究\插件化\PluginMvcWeb\PluginMvc.Framework\obj\Release\PluginMvc.Framework.pdb
