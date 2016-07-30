@@ -12,7 +12,7 @@
     {
         public string Name
         {
-            get { return "Contents"; }
+            get { return "Contents"; }//项目下查找页面的路径
         }
 
         public void Initialize()
@@ -20,7 +20,7 @@
             RouteTable.Routes.MapRoute(
                 name: "content_list",
                 url: "content/list",
-                defaults: new { controller = "Content", action = "List", id = UrlParameter.Optional, pluginName = this.Name }
+                defaults: new { controller = "Content", action = "List", id = UrlParameter.Optional, pluginName = this.Name }//pluginName = this.Name 视图模版引擎需要,对应的插件在项目下的目录
             );
         }
 

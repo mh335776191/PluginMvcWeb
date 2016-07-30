@@ -47,7 +47,7 @@
         public override ViewEngineResult FindPartialView(ControllerContext controllerContext, string partialViewName, bool useCache)
         {
             string pluginName = string.Empty;
-
+            //pluginName 查找页面路径的目录名称
             if (controllerContext.RouteData.Values.ContainsKey("pluginName"))
             {
                 pluginName = controllerContext.RouteData.GetRequiredString("pluginName");

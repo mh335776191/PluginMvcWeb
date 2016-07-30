@@ -130,13 +130,13 @@
     <Content Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Views\Home\Index.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
     <ProjectReference Include="..\PluginMvc.Framework\PluginMvc.Framework.csproj">
       <Project>{a9c398a6-e41a-4c34-9fce-6b7982fb53ca}</Project>
       <Name>PluginMvc.Framework</Name>
     </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="Views\Home\Index.cshtml" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

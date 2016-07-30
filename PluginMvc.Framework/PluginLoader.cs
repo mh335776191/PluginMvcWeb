@@ -92,9 +92,9 @@
                 {
                     file.Delete();
                 }
-                catch (Exception)
+                catch (Exception ex)
                 {
-
+                    throw ex;
                 }
 
             }
@@ -107,9 +107,9 @@
                     var di = Directory.CreateDirectory(TempPluginFolder.FullName);
                     File.Copy(plugin.FullName, Path.Combine(di.FullName, plugin.Name), true);
                 }
-                catch (Exception)
+                catch (Exception ex)
                 {
-
+                    throw ex;
                 }
             }
         }
