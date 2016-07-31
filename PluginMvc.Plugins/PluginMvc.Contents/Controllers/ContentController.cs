@@ -15,5 +15,9 @@
 
             return View(contentItem);
         }
+        public ActionResult Index()
+        {
+            return View();
+        }
     }
 }

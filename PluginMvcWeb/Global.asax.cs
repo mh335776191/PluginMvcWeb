@@ -15,6 +15,7 @@
         protected void Application_Start()
         {
             RouteConfig.RegisterRoutes(RouteTable.Routes);
+           // RouteDebug.RouteDebugger.RewriteRoutesForTesting(RouteTable.Routes);
         }
     }
 }

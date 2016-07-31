@@ -141,6 +141,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Properties\PublishProfiles\www.pluginmvc.com.pubxml" />
+    <Content Include="Views\Content\Index.cshtml" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

@@ -19,7 +19,7 @@
         {
             RouteTable.Routes.MapRoute(
                 name: "content_list",
-                url: "content/list",
+                url: "content/{action}",
                 defaults: new { controller = "Content", action = "List", id = UrlParameter.Optional, pluginName = this.Name }//pluginName = this.Name 视图模版引擎需要,对应的插件在项目下的目录
             );
         }
